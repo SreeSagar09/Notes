@@ -1,0 +1,27 @@
+JavaPatternPrograms ---> Java Pattern Programs
+JavaLogicalPrograms ---> JavaLogicalPrograms
+CoreJavaPrograms ---> Core Java Programs
+SpringCoreApplication1 ---> Simple Program to show how to configure spring beans using XML file and constructor dependency injection
+SpringCoreApplication2 ---> Simple Program to show how to configure spring beans using Java file and constructor dependency injection:
+SpringCoreApplication3 ---> Simple Program to show how to configure spring beans using xml file and Setter injection:
+SpringCoreApplication4 ---> Simple Program to show how to configure spring beans using java file and setter injection:
+SpringCoreApplication5 ---> Simple Program to show how to configure spring beans using Xml file and constructor dependency injection, Reference type as a dependency:
+SpringCoreApplication6 ---> Simple Program to show how to configure spring beans using Java file and constructor dependency injection, Reference type as a dependency:
+SpringCoreApplication7 ---> Simple Program to show how to configure spring beans using Xml file and setter dependency injection, Reference type as a dependency:
+SpringCoreApplication8 ---> Simple Program to show how to configure spring beans using Java file and setter dependency injection, Reference type as a dependency:
+SpringCoreApplication9 ---> Simple Program to show how to configure spring beans using Xml file and constructor dependency injection, Collection type as a dependency:
+SpringCoreApplication10 ---> Simple Program to show how to configure spring beans using Java file and constructor dependency injection, Collection type as a dependency:
+SpringCoreApplication11 ---> Simple Program to show how to configure spring beans using Xml file and setter dependency injection, Collection type as a dependency:
+SpringCoreApplication12 ---> Simple Program to show how to configure spring beans using Java file and setter dependency injection, Collection type as a dependency:
+SpringCoreApplication13 ---> A Program to show how to configure scope of the bean using Xml configuration file:
+SpringCoreApplication14 ---> A Program to show how to configure scope of the bean using Java configuration file:
+SpringCoreApplication15 ---> A Program to demonstrate the different scope combination between super class and sub class beans:
+SpringCoreApplication16 ---> A Program to demonstrate the use of @Component annotation:
+SpringCoreApplication17 ---> A Program to demonstrate the use of @ComponentScan annotation:
+SpringCoreApplication18 ---> A Program to demonstrate the use of @Value annotation:
+SpringCoreApplication19 ---> A Program to demonstrate the use of @PropertySource annotation:
+SpringCoreApplication20 ---> A Program to demonstrate the use of @PreConstruct and @PostDestroy annotation:
+SpringCoreApplication21 ---> A Program to demonstrate the use of @Autowire annotation:
+SpringCoreApplication22 ---> A Program to demonstrate the use of @Bean annotation:
+SpringCoreApplication23 ---> A Program to demonstrate the the use of @Primary annotation:
+SpringCoreApplication24 ---> A Program to demonstrate the use of @Qualifier annotation:
