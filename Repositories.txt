@@ -28,3 +28,4 @@ SpringCoreApplication24 ---> A Program to demonstrate the use of @Qualifier anno
 SpringCoreApplication25 ---> A Program to demonstrate the use of @Lazy annotation:
 SrpingCoreApplication26 ---> A Program to demonstrate the use of @Order annotation:
 SpringJDBCApplication1 ---> Simple Program to show how to configure spring jdbc using xml file and how to insert record in to db:
+SpringJDBCApplication2 ---> Simple Program to show how to configure spring jdbc using java file and how to insert record in to db:
