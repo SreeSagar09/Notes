@@ -26,3 +26,4 @@ SpringCoreApplication22 ---> A Program to demonstrate the use of @Bean annotatio
 SpringCoreApplication23 ---> A Program to demonstrate the use of @Primary annotation:
 SpringCoreApplication24 ---> A Program to demonstrate the use of @Qualifier annotation:
 SpringCoreApplication25 ---> A Program to demonstrate the use of @Lazy annotation:
+SrpingCoreApplication26 ---> A Program to demonstrate the use of @Order annotation:
