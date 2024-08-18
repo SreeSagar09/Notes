@@ -27,6 +27,6 @@ SpringCoreApplication23 ---> A Program to demonstrate the use of @Primary annota
 SpringCoreApplication24 ---> A Program to demonstrate the use of @Qualifier annotation:
 SpringCoreApplication25 ---> A Program to demonstrate the use of @Lazy annotation:
 SrpingCoreApplication26 ---> A Program to demonstrate the use of @Order annotation:
-SpringJDBCApplication1 ---> Simple Program to show how to configure spring jdbc using xml file and how to insert record in to db:
-SpringJDBCApplication2 ---> Simple Program to show how to configure spring jdbc using java file and how to insert record in to db:
-SpringJDBCApplication3 ---> A program to demonstrate the insert multiple of records using batchUpdate method in db:
+SpringJDBCApplication1 ---> Simple Program to show how to configure spring jdbc using xml file and how to insert record into db:
+SpringJDBCApplication2 ---> Simple Program to show how to configure spring jdbc using java file and how to insert record into db:
+SpringJDBCApplication3 ---> A program to demonstrate how to insert multiple records into db by using batchUpdate method:
