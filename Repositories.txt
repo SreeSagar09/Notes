@@ -1,6 +1,7 @@
 JavaPatternPrograms ---> Java Pattern Programs
 JavaLogicalPrograms ---> JavaLogicalPrograms
 CoreJavaPrograms ---> Core Java Programs
+
 SpringCoreApplication1 ---> Simple Program to show how to configure spring beans using XML file and constructor dependency injection
 SpringCoreApplication2 ---> Simple Program to show how to configure spring beans using Java file and constructor dependency injection:
 SpringCoreApplication3 ---> Simple Program to show how to configure spring beans using xml file and Setter injection:
@@ -27,9 +28,13 @@ SpringCoreApplication23 ---> A Program to demonstrate the use of @Primary annota
 SpringCoreApplication24 ---> A Program to demonstrate the use of @Qualifier annotation:
 SpringCoreApplication25 ---> A Program to demonstrate the use of @Lazy annotation:
 SrpingCoreApplication26 ---> A Program to demonstrate the use of @Order annotation:
+
 SpringJDBCApplication1 ---> Simple Program to show how to configure spring jdbc using xml file and how to insert record into db:
 SpringJDBCApplication2 ---> Simple Program to show how to configure spring jdbc using java file and how to insert record into db:
 SpringJDBCApplication3 ---> A program to demonstrate how to insert multiple records into db by using batchUpdate method:
 SpringJDBCApplication4 ---> A program to demonstrate how to get single records from db by using queryForObject method:
 SpringJDBCApplication5 ---> A program to demonstrate how to get multiple records from db by using queryForList method:
 SpringJDBCApplication6 ---> A program to demonstrate how to update records in db by using update method:
+
+SpringORMApplication1 ---> Simple Program to show how to configure spring orm using xml file and how to get records from db:
+SpringORMApplication2 ---> Simple Program to show how to configure spring orm using java file and how to get records from db:
