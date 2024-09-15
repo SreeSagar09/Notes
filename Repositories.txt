@@ -38,3 +38,8 @@ SpringJDBCApplication6 ---> A program to demonstrate how to update records in db
 
 SpringORMApplication1 ---> Simple Program to show how to configure spring orm using xml file and how to get records from db:
 SpringORMApplication2 ---> Simple Program to show how to configure spring orm using java file and how to get records from db:
+SpringORMApplication3 ---> A Program to demonstrate how to get record from db by using findByExample method:
+SpringORMApplication4 ---> A Program to demonstrate how to get record from db by using findByNamedParam method:
+SpringORMApplication5 ---> A Program to demonstrate how to get record from db by using findByNamedQuery method:
+SpringORMApplication6 ---> A Program to demonstrate how to get record from db by using findByNamedQueryAndNamedParam method:
+SpringORMApplication7 ---> A Program to demonstrate how to get record from db by using find method:
