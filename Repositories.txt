@@ -47,3 +47,6 @@ SpringORMApplication8 ---> A Program to demonstrate how to insert records into d
 
 SpringRestApplication1 ---> A Simple Spring Rest Application and it's configuration by using xml file:
 SpringRestApplication2 ---> A Simple Spring Rest Application and it's configuration by using java file:
+SpringRestApplication3 ---> A Program to demonstrate the use of @RequestMapping annotation:
+SpringRestApplication4 ---> A Program to demonstrate the use of @RequestMapping annotation attributes name, value, path, method:
+SpringRestApplication5 ---> A Program to demonstrate the use of @RequestMapping annotation attributes params, headers:
