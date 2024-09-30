@@ -50,3 +50,4 @@ SpringRestApplication2 ---> A Simple Spring Rest Application and it's configurat
 SpringRestApplication3 ---> A Program to demonstrate the use of @RequestMapping annotation:
 SpringRestApplication4 ---> A Program to demonstrate the use of @RequestMapping annotation attributes name, value, path, method:
 SpringRestApplication5 ---> A Program to demonstrate the use of @RequestMapping annotation attributes params, headers:
+SpringRestApplication6 ---> A Program to demonstrate the use of @RequestMapping annotation attributes consumes, produces:
