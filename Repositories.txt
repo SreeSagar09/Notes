@@ -51,3 +51,6 @@ SpringRestApplication3 ---> A Program to demonstrate the use of @RequestMapping 
 SpringRestApplication4 ---> A Program to demonstrate the use of @RequestMapping annotation attributes name, value, path, method:
 SpringRestApplication5 ---> A Program to demonstrate the use of @RequestMapping annotation attributes params, headers:
 SpringRestApplication6 ---> A Program to demonstrate the use of @RequestMapping annotation attributes consumes, produces:
+SpringRestApplication7 ---> A Program to demonstrate the use of @GetMapping, @PostMapping, @PutMapping, @PatchMapping and @DeleteMapping:
+SpringRestApplication8 ---> A Program to demonstrate the use of @RequestBody annotation:
+SpringRestApplication9 ---> A Program to demonstrate the use of @RequestParam annotation:
