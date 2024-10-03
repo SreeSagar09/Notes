@@ -54,3 +54,4 @@ SpringRestApplication6 ---> A Program to demonstrate the use of @RequestMapping 
 SpringRestApplication7 ---> A Program to demonstrate the use of @GetMapping, @PostMapping, @PutMapping, @PatchMapping and @DeleteMapping:
 SpringRestApplication8 ---> A Program to demonstrate the use of @RequestBody annotation:
 SpringRestApplication9 ---> A Program to demonstrate the use of @RequestParam annotation:
+SpringRestApplication10 ---> A Program to demonstrate the use of @PathVariable annotation:
