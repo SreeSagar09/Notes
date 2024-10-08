@@ -58,3 +58,5 @@ SpringRestApplication10 ---> A Program to demonstrate the use of @PathVariable a
 SpringRestApplication11 ---> A Program to demonstrate the use of @MatrixVariable annotation:
 SpringRestApplication12 ---> A Program to demonstrate the use of @RequestHeader annotation:
 SpringRestApplication13 ---> A Program to demonstrate the how to work with MultipartFile interface:
+
+SpringInterceptorApplication1 ---> A Simple Program to show how to configure Interceptor in Spring Application with HandlerInterceptorAdapter class:
