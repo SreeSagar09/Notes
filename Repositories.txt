@@ -66,4 +66,7 @@ SpringInterceptorApplication4 ---> A Program to demonstrate how to configure the
 SpringInterceptorApplication5 ---> A Program to demonstrate how to configure the multiple interceptors to single URL:
 SpringInterceptorApplication6 ---> A Program to demonstrate how to configure the multiple interceptors to single URL with order by using order method:
 
-SpringBootEurekaServerApplication1 ---> A Simple Eureka Server application:
+SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
+SpringBootEurekaServerApplication2 ---> A Program Netflix Eureka Registry and Discovery:
+SpringBootEurekaClientApplication1 ---> A Simple Netflix Eureka Client application:
+SpringBootEurekaClientApplication2 ---> A Simple Netflix Eureka Client application:
