@@ -70,3 +70,6 @@ SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server applicati
 SpringBootEurekaServerApplication2 ---> A Program Netflix Eureka Registry and Discovery:
 SpringBootEurekaClientApplication1 ---> A Simple Netflix Eureka Client application:
 SpringBootEurekaClientApplication2 ---> A Simple Netflix Eureka Client application:
+SpringBootEurekaServerApplication3 ---> A Program Netflix Eureka R&D server and establishing communication with DiscoveryClient:
+SpringBootEurekaClientApplication3 ---> A Simple Netflix Eureka Client as Producer application:
+SpringBootEurekaClientApplication4 ---> A Simple Netflix Eureka Client as Consumer application:
