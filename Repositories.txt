@@ -66,10 +66,18 @@ SpringInterceptorApplication4 ---> A Program to demonstrate how to configure the
 SpringInterceptorApplication5 ---> A Program to demonstrate how to configure the multiple interceptors to single URL:
 SpringInterceptorApplication6 ---> A Program to demonstrate how to configure the multiple interceptors to single URL with order by using order method:
 
+SpringBootRunnerApplication1 ---> A Program to implement custom runner by using CommandLineRunner interface:
+SpringBootRunnerApplication2 ---> A Program to implement custom runner by using ApplicationRunner interface:
+SpringBootRunnerApplication3 ---> A Program to implement multiple custom runners by using CommandLineRunner, ApplicationRunner interface:
+SpringBootRunnerApplication4 ---> A Program to execute custom runners in desired order by Ordered interface:
+SpringBootRunnerApplication5 ---> A Program to execute custom runners in desired order by @Order annotation:
+SpringBootRunnerApplication6 ---> A Program to show how to pass arguments to CommandLineRunner interface run(String... arg) method:
+SpringBootRunnerApplication7 ---> A Program to show how to pass arguments to ApplicationRunner interface run(ApplicationArguments args) method:
+
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
 SpringBootEurekaServerApplication2 ---> A Program Netflix Eureka Registry and Discovery:
 SpringBootEurekaClientApplication1 ---> A Simple Netflix Eureka Client application:
 SpringBootEurekaClientApplication2 ---> A Simple Netflix Eureka Client application:
 SpringBootEurekaServerApplication3 ---> A Program Netflix Eureka R&D server and establishing communication with DiscoveryClient:
 SpringBootEurekaClientApplication3 ---> A Simple Netflix Eureka Client as Producer application:
-SpringBootEurekaClientApplication4 ---> A Simple Netflix Eureka Client as Consumer application:
+SpringBootEurekaClientApplication4 ---> A Simple Netflix Eureka Client as Consumer application and accessing end point by using DiscoveryClient:
