@@ -74,6 +74,10 @@ SpringBootRunnerApplication5 ---> A Program to execute custom runners in desired
 SpringBootRunnerApplication6 ---> A Program to show how to pass arguments to CommandLineRunner interface run(String... arg) method:
 SpringBootRunnerApplication7 ---> A Program to show how to pass arguments to ApplicationRunner interface run(ApplicationArguments args) method:
 
+SpringBootDataJPAApplication1 ---> A Program to show how to configure the Spring Data JPA in Spring Boot Application:
+SpringBootDataJPAApplication2 ---> A Program to show some simple methods to retrieve records from DB:
+SpringBootDataJPAApplication3 ---> A Program to show some simple methods to retrieve records from DB:
+
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
 SpringBootEurekaServerApplication2 ---> A Program Netflix Eureka Registry and Discovery:
 SpringBootEurekaClientApplication1 ---> A Simple Netflix Eureka Client application:
