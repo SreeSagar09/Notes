@@ -78,6 +78,9 @@ SpringBootDataJPAApplication1 ---> A Program to show how to configure the Spring
 SpringBootDataJPAApplication2 ---> A Program to show some simple methods to retrieve records from DB:
 SpringBootDataJPAApplication3 ---> A Program to show some simple methods to retrieve records from DB:
 SpringBootDataJPAApplication4 ---> A Program to show how to work with findBy methods:
+SpringBootDataJPAApplication5 ---> A Program to show how to work with @Query annotation:
+SpringBootDataJPAApplication6 ---> A Program to show how to work with @Query annotation:
+SpringBootDataJPAApplication7 ---> A Program to show how to work with @Query annotation:
 
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
 SpringBootEurekaServerApplication2 ---> A Program Netflix Eureka Registry and Discovery:
