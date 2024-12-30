@@ -81,6 +81,8 @@ SpringBootDataJPAApplication4 ---> A Program to show how to work with findBy met
 SpringBootDataJPAApplication5 ---> A Program to show how to work with @Query annotation:
 SpringBootDataJPAApplication6 ---> A Program to show how to work with @Query annotation:
 SpringBootDataJPAApplication7 ---> A Program to show how to work with @Query annotation:
+SpringBootDataJPAApplication8 ---> A Program to show how to implement custom query building using EntityManager, Query interfaces:
+SpringBootDataJPAApplication9 ---> A Program to show how to implement custom query building using EntityManager, CriteriaBuilder interfaces:
 
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
 SpringBootEurekaServerApplication2 ---> A Program Netflix Eureka Registry and Discovery:
