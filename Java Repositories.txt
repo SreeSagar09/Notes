@@ -72,6 +72,10 @@ SpringInterceptorApplication5 ---> A Program to demonstrate how to configure the
 SpringInterceptorApplication6 ---> A Program to demonstrate how to configure the multiple interceptors to single URL with order by using order method:
 
 
+SpringBootCoreApplication1 ---> A Program to show use of ConfigurableApplicationContext interface:
+SpringBootCoreApplication2 ---> A Program to change the default banner:
+
+
 SpringBootRunnerApplication1 ---> A Program to implement custom runner by using CommandLineRunner interface:
 SpringBootRunnerApplication2 ---> A Program to implement custom runner by using ApplicationRunner interface:
 SpringBootRunnerApplication3 ---> A Program to implement multiple custom runners by using CommandLineRunner, ApplicationRunner interface:
