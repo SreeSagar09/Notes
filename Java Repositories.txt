@@ -106,6 +106,9 @@ SpringBootDataJPAApplication12 ---> A Program to show how to save, update and de
 
 SpringBootSecurityApplication1 ---> A Program to show how to configure spring security with WebSecurityConfigurerAdapter class and with in memory authentication:
 SpringBootSecurityApplication2 ---> A Program to show how to configure spring security with SecurityFilterChain interface and with in memory authentication:
+SpringBootSecurityApplication3 ---> A Program to show how to configure spring security with WebSecurityConfigurerAdapter class and authentication with dynamic users by using UserDetailsService:
+SpringBootSecurityApplication4 --> A Program to show how to configure spring security with SecurityFilterChain interface and authentication with dynamic users by using UserDetailsService:
+SpringBootSecurityApplication5 ---> A Program to show how to configure spring security with SecurityFilterChain interface and authentication by api key:
 
 
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
