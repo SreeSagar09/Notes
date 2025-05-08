@@ -108,7 +108,7 @@ SpringBootSecurityApplication1 ---> A Program to show how to configure spring se
 SpringBootSecurityApplication2 ---> A Program to show how to configure spring security with SecurityFilterChain interface, authenticate in memory username and password by basic authentication:
 SpringBootSecurityApplication3 ---> A Program to show how to configure spring security with WebSecurityConfigurerAdapter class, authenticate in database username and password by basic authentication:
 SpringBootSecurityApplication4 --> A Program to show how to configure spring security with SecurityFilterChain interface, authenticate in database username and password by basic authentication:
-SpringBootSecurityApplication5 ---> A Program to show how to configure spring security with SecurityFilterChain interface, authenticate in datbase api key:
+SpringBootSecurityApplication5 ---> A Program to show how to configure spring security with SecurityFilterChain interface, authenticate in database api key:
 
 
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
