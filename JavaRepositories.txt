@@ -117,15 +117,24 @@ SpringBootSecurityApplication6 --> A Program to show how to configure spring sec
 
 
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
+
 SpringBootEurekaServerApplication2 ---> A Program Netflix Eureka Registry and Discovery:	
 SpringBootEurekaClientApplication1 ---> A Simple Netflix Eureka Client application:
 SpringBootEurekaClientApplication2 ---> A Simple Netflix Eureka Client application:
+
 SpringBootEurekaServerApplication3 ---> A Program Netflix Eureka R&D server and establishing communication with DiscoveryClient:
 SpringBootEurekaClientApplication3 ---> A Simple Netflix Eureka Client as Producer application:
 SpringBootEurekaClientApplication4 ---> A Simple Netflix Eureka Client as Consumer application and accessing end point by using DiscoveryClient:
+
 SpringBootEurekaServerApplication4 ---> A Program Netflix Eureka R&D server and establishing communication with LoadBalancerClient:
 SpringBootEurekaClientApplication5 ---> A Simple Netflix Eureka Client as Producer application:
 SpringBootEurekaClientApplication6 ---> A Simple Netflix Eureka Client as Consumer application and accessing end point by using LoadBalancerClient:
+
 SpringBootEurekaServerApplication5 ---> A Program Netflix Eureka R&D server and load balancing using @FeignClient annotation:
 SpringBootEurekaClientApplication7 ---> A Simple Netflix Eureka Client as Producer application:
 SpringBootEurekaClientApplication8 ---> A Simple Netflix Eureka Client as Consumer application and load balancing using @FeignClient annotation:
+
+SpringBootEurekaServerApplication6 --> A Program Netflix Eureka R&D server and api gateway by Spring Cloud Gateway:
+SpringBootEurekaClientApplication9 --> A Simple Spring Cloud Gateway application and configuration using properties file:
+SpringBootEurekaClientApplication10 --> A Simple Netflix Eureka Client as Producer application:
+SpringBootEurekaClientApplication11 --> A Simple Netflix Eureka Client as Producer application:
