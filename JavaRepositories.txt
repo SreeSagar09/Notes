@@ -138,3 +138,8 @@ SpringBootEurekaServerApplication6 --> A Program Netflix Eureka R&D server and a
 SpringBootEurekaClientApplication9 --> A Simple Spring Cloud Gateway application and configuration using properties file:
 SpringBootEurekaClientApplication10 --> A Simple Netflix Eureka Client as Producer application:
 SpringBootEurekaClientApplication11 --> A Simple Netflix Eureka Client as Producer application:
+
+SpringBootEurekaServerApplication7 --> A Program Netflix Eureka R&D server and api gateway by Spring Cloud Gateway:
+SpringBootEurekaClientApplication12 --> A Simple Spring Cloud Gateway application and configuration using java file:
+SpringBootEurekaClientApplication13 --> A Simple Netflix Eureka Client as Producer application:
+SpringBootEurekaClientApplication14 --> A Simple Netflix Eureka Client as Producer application:
