@@ -1,0 +1,2 @@
+HibernateApplication1 --> A simple hibernate program to configure database by using java file:
+HibernateApplication2 --> A simple hibernate program to configure database by using xml file:

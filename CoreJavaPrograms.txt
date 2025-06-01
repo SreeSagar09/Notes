@@ -1,0 +1,3 @@
+JavaPatternPrograms ---> Java Pattern Programs
+JavaLogicalPrograms ---> JavaLogicalPrograms
+CoreJavaPrograms ---> Core Java Programs
