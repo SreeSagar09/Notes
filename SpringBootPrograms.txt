@@ -33,6 +33,8 @@ SpringBootSecurityApplication5 ---> A Program to show how to configure spring se
 SpringBootSecurityApplication6 --> A Program to show how to configure spring security with SecurityFilterChain interface, authenticate username and password by AuthenticationManager:
 SpringBootSecurityApplication7 --> A Program to show how to configure spring security with SecurityFilterChain interface, authenticate username and password by AuthenticationManager and JWT Token:
 SpringBootSecurityApplication8 --> A Program to show how to configure spring security with SecurityFilterChain interface, authenticate username and password by AuthenticationManager and JWT Token:
+SpringBootSecurityApplication9 --> A Program to show how to configure spring security with SecurityFilterChain interface, role based authentication:
+SpringBootSecurityApplication10 --> A Program to show how to configure spring security with SecurityFilterChain interface, method level role based authentication:
 
 
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
