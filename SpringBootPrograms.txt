@@ -37,6 +37,10 @@ SpringBootSecurityApplication9 --> A Program to show how to configure spring sec
 SpringBootSecurityApplication10 --> A Program to show how to configure spring security with SecurityFilterChain interface, method level role based authentication:
 
 
+SpringBootActuatorApplication1 --> A Program to show how to work with Spring boot Actuators:
+SpringBootActuatorApplication2 --> A Program to show how to create custom Actuators:
+
+
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
 
 SpringBootEurekaServerApplication2 ---> A Program Netflix Eureka Registry and Discovery:	
