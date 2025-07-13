@@ -1,0 +1,2 @@
+JUnitApplication1 ---> A Program to show how to write test case by using JUnit 4
+JUnitApplication2 ---> A Program to show how to write test case by using JUnit 4
