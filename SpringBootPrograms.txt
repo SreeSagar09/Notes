@@ -41,6 +41,10 @@ SpringBootActuatorApplication1 --> A Program to show how to work with Spring boo
 SpringBootActuatorApplication2 --> A Program to show how to create custom Actuators:
 
 
+SpringBootWebSocketsApplication1 --> A simple program to send notification to all users by using WebSockets:
+SpringBootWebSocketsApplication2 --> A simple program to send notification to specific user by using WebSockets:
+
+
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
 
 SpringBootEurekaServerApplication2 ---> A Program Netflix Eureka Registry and Discovery:	
