@@ -37,8 +37,10 @@ SpringBootSecurityApplication9 --> A Program to show how to configure spring sec
 SpringBootSecurityApplication10 --> A Program to show how to configure spring security with SecurityFilterChain interface, method level role based authentication:
 
 
-SpringBootSchedulerApplication1 --> A Program to show how to configure simple spring boot schedulers and how to use configure fixedDelay, fixedRate and initialDelay:
-SpringBootSchedulerApplication2 --> A Program to show how to configure simple spring boot schedulers and how to use configure fixedDelayString, fixedRateString and initialDelayString:
+SpringBootSchedulerApplication1 --> A Program to show how to configure simple spring boot schedulers and how to configure fixedDelay, fixedRate and initialDelay:
+SpringBootSchedulerApplication2 --> A Program to show how to configure simple spring boot schedulers and how to configure fixedDelayString, fixedRateString and initialDelayString:
+SpringBootSchedulerApplication3 --> A Program to show how to configure simple spring boot schedulers and how to configure cron, zone:
+SpringBootSchedulerApplication4 --> A Program to show how to configure simple spring boot schedulers with async tasks:
 
 
 SpringBootActuatorApplication1 --> A Program to show how to work with Spring boot Actuators:
