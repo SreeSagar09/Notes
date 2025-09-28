@@ -45,6 +45,8 @@ SpringBootSchedulerApplication5 --> A Program to show how to configure simple sp
 SpringBootSchedulerApplication6 --> A Program to show how to configure simple spring boot quartz jobs and how to configure cron expression with CronScheduleBuilder class:
 SpringBootSchedulerApplication7 --> A Program to show how to configure simple spring boot quartz jobs and Enabling or disabling jobs by using @ConditionalOnProperty annotation:
 SpringBootSchedulerApplication8 --> A Program to show how to configure simple spring boot TaskScheduler and how to configure oneTime task, fixedDelay task, fixedRate task:
+SpringBootSchedulerApplication8 --> A Program to show how to configure simple spring boot TaskScheduler and how to configure oneTime task, fixedDelay task, fixedRate task:
+SpringBootSchedulerApplication9 --> A Program to show how to configure simple spring boot TaskScheduler and how to configure cron expression by using CronTrogger class:
 
 
 SpringBootActuatorApplication1 --> A Program to show how to work with Spring boot Actuators:
