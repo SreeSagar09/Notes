@@ -25,6 +25,10 @@ SpringBootDataJPAApplication11 ---> A Program to show how to save, update and de
 SpringBootDataJPAApplication12 ---> A Program to show how to save, update and delete records by using @Query annotation:
 
 
+SpringBootMVCApplication1 ---> A Program to show simple spring boot mvc application:
+SpringBootMVCApplication2 ---> A Program to show how to configure view by using ModelAndView class:
+
+
 SpringBootSecurityApplication1 ---> A Program to show how to configure spring security with WebSecurityConfigurerAdapter class, authenticate in memory username and password by basic authentication:
 SpringBootSecurityApplication2 ---> A Program to show how to configure spring security with SecurityFilterChain interface, authenticate in memory username and password by basic authentication:
 SpringBootSecurityApplication3 ---> A Program to show how to configure spring security with WebSecurityConfigurerAdapter class, authenticate in database username and password by basic authentication:
@@ -55,6 +59,9 @@ SpringBootActuatorApplication2 --> A Program to show how to create custom Actuat
 
 SpringBootWebSocketsApplication1 --> A simple program to send notification to all users by using WebSockets:
 SpringBootWebSocketsApplication2 --> A simple program to send notification to specific user by using WebSockets:
+
+
+SpringBootSSEApplication1 ---> A Program to show how to configure and work with Server Sent Events(SSE) in spring boot:
 
 
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
