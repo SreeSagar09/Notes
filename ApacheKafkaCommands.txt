@@ -1,0 +1,26 @@
+To start zookeeper server:
+D:\Softwares\kafka_2.13-3.9.1> .\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+To start kafka server
+D:\Softwares\kafka> .\bin\windows\kafka-server-start.bat config\server.properties
+
+To create topic
+D:\Softwares\kafka> .\bin\windows\kafka-topics.bat --create --topic demo-topic --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
+
+To produce data from console
+D:\Softwares\kafka> .\bin\windows\kafka-console-producer.bat --topic demo-topic --bootstrap-server localhost:9092
+
+To consume data from console
+D:\Softwares\kafka> .\bin\windows\kafka-console-consumer.bat --topic demo-topic --bootstrap-server localhost:9092
+
+To get list of topics
+D:\Softwares\kafka> .\bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --list
+
+To delete the topic
+D:\Softwares\kafka> .\bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --delete --topic demo-topic 
+
+To stop zookeeper server:
+D:\Softwares\kafka_2.13-3.9.1> .\bin\windows\zookeeper-server-stop.bat config\zookeeper.properties
+
+To stop kafka server
+D:\Softwares\kafka> .\bin\windows\kafka-server-stop.bat config\server.properties

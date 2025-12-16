@@ -64,6 +64,10 @@ SpringBootWebSocketsApplication2 --> A simple program to send notification to sp
 SpringBootSSEApplication1 ---> A Program to show how to configure and work with Server Sent Events(SSE) in spring boot:
 
 
+SpringBootKafkaApplication1 ---> A simple kafka producer spring boot application:
+SpringBootKafkaApplication2 ---> A simple kafka consumer spring boot application:
+
+
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
 
 SpringBootEurekaServerApplication2 ---> A Program Netflix Eureka Registry and Discovery:	
