@@ -66,6 +66,7 @@ SpringBootSSEApplication1 ---> A Program to show how to configure and work with 
 
 SpringBootKafkaApplication1 ---> A simple kafka producer spring boot application:
 SpringBootKafkaApplication2 ---> A simple kafka consumer spring boot application:
+SpringBootKafkaApplication3 ---> A kafka producer and consumer with user defined object in spring boot:
 
 
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
