@@ -1,5 +1,5 @@
 To start zookeeper server:
-D:\Softwares\kafka_2.13-3.9.1> .\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+D:\Softwares\kafka> .\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 
 To start kafka server:
 D:\Softwares\kafka> .\bin\windows\kafka-server-start.bat config\server.properties
@@ -7,6 +7,7 @@ D:\Softwares\kafka> .\bin\windows\kafka-server-start.bat config\server.propertie
 To create topic:
 D:\Softwares\kafka> .\bin\windows\kafka-topics.bat --create --topic demo-topic --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
 
+To create topic with retention:
 D:\Softwares\kafka>.\bin\windows\kafka-topics.bat --create --topic demo-topic --bootstrap-server localhost:9092 --replication-factor 1 --partitions 3 --config retention.ms=3600000
 
 To produce data from console:
@@ -16,7 +17,10 @@ To consume data from console:
 D:\Softwares\kafka> .\bin\windows\kafka-console-consumer.bat --topic demo-topic --bootstrap-server localhost:9092
 
 To consume data from console from the beginning:
-D:\Softwares\kafka>.\bin\windows\kafka-console-consumer.bat --topic order-topic --bootstrap-server localhost:9092 --from-beginning
+D:\Softwares\kafka>.\bin\windows\kafka-console-consumer.bat --topic demo-topic --bootstrap-server localhost:9092 --from-beginning
+
+To consume data from console with partion wise:
+D:\Softwares\kafka>.\bin\windows\kafka-console-consumer.bat --topic order-topic --partition 2 --bootstrap-server localhost:9092 --from-beginning
 
 To get list of topics:
 D:\Softwares\kafka> .\bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --list
@@ -28,7 +32,7 @@ To describe the topic:
 D:\Softwares\kafka>.\bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --describe --topic order-topic
 
 To stop zookeeper server:
-D:\Softwares\kafka_2.13-3.9.1> .\bin\windows\zookeeper-server-stop.bat config\zookeeper.properties
+D:\Softwares\kafka> .\bin\windows\zookeeper-server-stop.bat config\zookeeper.properties
 
 To stop kafka server
 D:\Softwares\kafka> .\bin\windows\kafka-server-stop.bat config\server.properties
