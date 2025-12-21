@@ -20,7 +20,7 @@ To consume data from console from the beginning:
 D:\Softwares\kafka>.\bin\windows\kafka-console-consumer.bat --topic demo-topic --bootstrap-server localhost:9092 --from-beginning
 
 To consume data from console with partion wise:
-D:\Softwares\kafka>.\bin\windows\kafka-console-consumer.bat --topic order-topic --partition 2 --bootstrap-server localhost:9092 --from-beginning
+D:\Softwares\kafka>.\bin\windows\kafka-console-consumer.bat --topic demo-topic --partition 2 --bootstrap-server localhost:9092 --from-beginning
 
 To get list of topics:
 D:\Softwares\kafka> .\bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --list

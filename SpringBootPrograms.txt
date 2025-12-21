@@ -69,6 +69,8 @@ SpringBootKafkaApplication2 ---> A simple kafka consumer spring boot application
 SpringBootKafkaApplication3 ---> A kafka producer and consumer with user defined object in spring boot:
 SpringBootKafkaApplication4 ---> A kafka application, one producer and multiple consumers with same groupId in spring boot:
 SpringBootKafkaApplication5 ---> A kafka application, one producer and multiple consumers with two different groupId in spring boot:
+SpringBootKafkaApplication6 ---> A kafka application, with manual committing of offsets in spring boot:
+SpringBootKafkaApplication6 ---> A kafka application, to explore ConsumerRecord class methods in spring boot:
 
 
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
