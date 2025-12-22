@@ -31,6 +31,12 @@ D:\Softwares\kafka> .\bin\windows\kafka-topics.bat --bootstrap-server localhost:
 To describe the topic:
 D:\Softwares\kafka>.\bin\windows\kafka-topics.bat --bootstrap-server localhost:9092 --describe --topic order-topic
 
+To alter cleanup policy of particular topic:
+D:\Softwares\kafka>.\bin\windows\kafka-configs.bat --alter --entity-type topics --entity-name order-topic --add-config cleanup.policy=compact --bootstrap-server localhost:9092
+
+To describe the kafka configs of particular topic:
+D:\Softwares\kafka>.\bin\windows\kafka-configs.bat --describe --entity-type topics --entity-name order-topic --bootstrap-server localhost:9092
+
 To stop zookeeper server:
 D:\Softwares\kafka> .\bin\windows\zookeeper-server-stop.bat config\zookeeper.properties
 
