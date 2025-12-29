@@ -72,6 +72,7 @@ SpringBootKafkaApplication5 ---> A kafka application, one producer and multiple 
 SpringBootKafkaApplication6 ---> A kafka application, with manual committing of offsets in spring boot:
 SpringBootKafkaApplication7 ---> A kafka application, to explore ConsumerRecord class methods in spring boot:
 SpringBootKafkaApplication8 ---> A kafka application, to explore the behavior sending data to the topic with same key in spring boot:
+SpringBootKafkaApplication9 ---> A kafka application, configure producer and consumer by using ConsumerFactory, ProducerFactory classes respectively in spring boot:
 
 
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
