@@ -75,6 +75,12 @@ SpringBootKafkaApplication8 ---> A kafka application, to explore the behavior se
 SpringBootKafkaApplication9 ---> A kafka application, configure producer and consumer by using ConsumerFactory, ProducerFactory classes respectively in spring boot:
 
 
+SpringBootActiveMQApplication1 ---> A simple activeMQ producer and consumer spring boot application:
+SpringBootActiveMQApplication2 ---> A activeMQ producer and consumer with queue/point-to-point mode spring boot application:
+SpringBootActiveMQApplication3 ---> A activeMQ producer and consumer with topic/publish-subscribe mode spring boot application:
+SpringBootActiveMQApplication4 ---> A activeMQ producer and consumer with user defined object in spring boot application:
+
+
 SpringBootEurekaServerApplication1 ---> A Simple Netflix Eureka Server application:
 
 SpringBootEurekaServerApplication2 ---> A Program Netflix Eureka Registry and Discovery:	

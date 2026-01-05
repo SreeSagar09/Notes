@@ -1,0 +1,11 @@
+1. Download apache kafka from official website: https://kafka.apache.org/community/downloads/
+2. Use Binary download only, no need to compile.
+3. Extract the downloaded file.
+4. Open the extracted folder 'D:\Softwares\kafka', In that create two folders with name of 'zookeeper', 'logs'
+5. Open 'D:\Softwares\kafka\config\zookeeper.properties' file. Change dataDir to 'D:\Softwares\kafka\zookeeper'
+6. Open 'D:\Softwares\kafka\config\server.properties' file. Change log.dirs to 'D:\Softwares\kafka\logs'
+7. Always first start zookeeper, then start kafka server.
+8. To start zookeeper, open command prompt, go to the kafka directory.
+9. Execute the command: D:\Softwares\kafka> .\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+10. To start kafka server, open another command prompt, go to the kafka directory.
+11. Execute the command: D:\Softwares\kafka> .\bin\windows\kafka-server-start.bat config\server.properties

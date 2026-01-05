@@ -1,0 +1,7 @@
+1. Download apache activeMQ from official website: https://activemq.apache.org/components/classic/download/ 
+2. Download appropriate activeMQ version, version will vary based on java and spring version.
+3. Extract the downloaded file. 
+4. To start activemq, go to the activeMQ bin directory.
+5. Execute the command: 'D:\Softwares\activemq\bin>activemq start'
+6. ActiveMQ web console url: http://localhost:8161/ or http://127.0.0.1:8161/
+7. Username and password is: admin/admin
