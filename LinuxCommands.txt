@@ -1,0 +1,90 @@
+---> sudo su - : 
+* This command is used to switch from a normal user to the root user and get a full root login environment.
+* It makes us to root, to run the commands with admin permission
+
+---> subo -i :
+* It is also work same as 'sudo su -'
+
+---> ls :
+* To display files and directories inside a folder.
+* Some of the different use cases:
+	--> ls -l :
+		* It indicate long list, it will display file permissions, number of links, owner, group, file size, last modified date and file name.
+	--> ls -a :
+		* To display hidden files and directories also.
+	--> ls -h :
+		* To display files and directories in human readable size.
+	--> ls -la or ls -al :
+		* To display all file and directories, including hidden file with details.
+	--> ls -R :
+		* To display list of files and directories inside subdirectories also.
+	--> ls -F :
+		* To identify file type, eighter directory(/) or executable(/) file or link(*).
+			Example of usage is" ls -F /
+	--> ls -t :
+		* To display list of file and directories in time sorting and recently modified file or directories are first.
+	--> ls -r :
+		* To display list of file and directories in reverse order.
+
+---> pwd :
+* This command is used for print working directory.
+* It shows where your are right now in the linux file system.
+* For example:
+	pwd
+	/home/ubuntu#
+	
+---> mkdir :
+* This command is used to create a new folder(directory)
+* Some of the different use cases:
+	--> mkdir <folder_name> :
+		* It will create folder in current working directory.
+	--> mkdir <folder_name_1> <folder_name_2> <folder_name_3> :
+		* It will create multiple folders in current directory at a time.
+	--> mkdir <folder_name_1>/<folder_name_2> :
+		* It will create folder_name_2 inside folder_name_1 in current working directory.
+		* It will fails if folder_name_1 does not exists.
+		* It will create folder at relative path.
+	--> mkdir -p <folder_name_1>/<folder_name_2>/<folder_name_3> :
+		* It will create parent directories also.
+	--> mkdir /<folder_name_1>/<folder_name_2> :
+		* It will create folder_name_2 inside folder_name_1 under root(/), no matter which directory you are. 
+		* Usually it fails due to permission denied, then use 'sudo mkdir -p /<folder_name_1>/<folder_name_2>'
+		* It will create folder at absolute path.
+		
+---> rmdir :
+* This command is used to remove empty directory.
+* Some of the different use cases:
+	--> rmdir <folder_name_1> :
+		* It will remove folder_name_1, if it is empty otherwise it shows message 'Directory not empty'
+	--> rmdir <folder_name_1>/<folder_name_2> :
+		* It will only remove folder_name_2 only if it is empty, it will not remove folder_name_2.
+	--> rmdir -p <folder_name_1>/<folder_name_2> :
+		* It will remove folder_name_2 and after folder_name_1 also.
+	
+---> rm -r :
+* This command is used to remove directory, and it's all files and all subdirectories also.
+* It is very dangerous if we used wrongly.
+* Here 'r' indicate recursively.
+* Some of the different use case:
+	--> rm -r <folder_or_file_name_1> :
+		* It will remove folder_or_file_name_1, and it's all files and subdirectories inside folder_or_file_name_1.
+	--> rm -rf <folder_or_file_name_1> :
+		* It will remove folder_or_file_name_1, and it's all files and subdirectories inside folder_or_file_name_1 forcebly.
+		* Here 'f' indicate focefully.
+	--> rm -r <folder_or_file_name_1> <folder_or_file_name_1> :
+		* It will remove folder_or_file_name_1, folder_or_file_name_1, and it's all files and subdirectories inside folder_or_file_name_1, folder_or_file_name_1.
+	--> rm -r <folder_name_1>/<folder_or_file_name_1> :
+		* It will remove folder_or_file_name_1, and it's all files and subdirectories inside folder_or_file_name_1.
+		* It won't remove folder_or_file_name_1, and it's all files and subdirectories.
+		
+---> touch :
+* This command is used to create a file.
+* Some of the different use case:
+	--> touch <file_name> :
+		* It will create a file with the name of 'file_name'.
+	
+	
+		
+	
+	
+	
