@@ -115,13 +115,17 @@
 		* If 'destination_directory_name' directory is not exist in current working directory, then it will give error message as 'No such file or directory'.
 	--> mv <directory_or_file_name_1> <directory_or_file_name_2> <directory_or_file_name_3> <destination_directory_name> :
 		* It will move multiple files or directories 'directory_or_file_name_1', 'directory_or_file_name_2', 'directory_or_file_name_3' into 'destination_directory_name' destination directory.
-	--> mv <directory_or_file_name> <directory_name_1>/<directory_name_2> :
-		* It will move 'directory_or_file_name' directory or file into 'directory_name_2' directory inside 'directory_name_1' directory.
+	--> mv <directory_or_file_name> <destination_directory_name_1>/<destination_directory_name_2> :
+		* It will move 'directory_or_file_name' directory or file into 'destination_directory_name_2' directory inside 'destination_directory_name_1' directory.
 		* The 'directory_name_1' directory should be in current working directory.
 	--> mv <file_name_1> <directory_name>/<file_name_2> :
 		* It will move 'file_name_1' file into 'directory_name' directory, and 'file_name_1' file name is change into 'file_name_2' file.
-	
-	
+	--> mv <directory_or_file_name_1> /<destination_directory_name_1>/<destination_directory_name_2> :
+		* It will move 'directory_or_file_name_1' directory or file into 'destination_directory_name_2' directory inside 'destination_directory_name_1' directory.
+		* No matter in which directory we are.
+	--> mv /<directory_name>/<directory_or_file_name> /<destination_directory_name_1>/<destination_directory_name_2> :
+		* It will move 'directory_or_file_name' directory or file inside 'directory_name' directory into 'destination_directory_name_2' directory inside 'destination_directory_name_1' directory.
+		* * No matter in which directory we are.
 		
 	
 	
