@@ -1,9 +1,10 @@
 ---> sudo su - : 
 * This command is used to switch from a normal user to the root user and get a full root login environment.
-* It makes us to root, to run the commands with admin permission
+* It makes us to root, to run the commands with admin permission.
 
 ---> subo -i :
 * It is also work same as 'sudo su -'
+
 
 ---> ls :
 * To display files and directories inside a folder.
@@ -11,7 +12,7 @@
 	--> ls -l :
 		* It indicate long list, it will display file permissions, number of links, owner, group, file size, last modified date and file name.
 	--> ls -a :
-		* To display hidden files and directories also.
+		* To display hidden files and directories also.	
 	--> ls -h :
 		* To display files and directories in human readable size.
 	--> ls -la or ls -al :
@@ -22,9 +23,13 @@
 		* To identify file type, eighter directory(/) or executable(/) file or link(*).
 			Example of usage is" ls -F /
 	--> ls -t :
-		* To display list of file and directories in time sorting and recently modified file or directories are first.
+		* To display list of files and directories in time sorting and recently modified file or directories are first.
 	--> ls -r :
 		* To display list of file and directories in reverse order.
+	--> ls <directory_name>/<directory_or_file_name> :
+		* To display list of files and directories in current working directory.
+	--> ls /<directory_name>/<directory_or_file_name> :
+		* To display list of files and directories from root directory, No matter in which directory we are.
 
 ---> pwd :
 * This command is used for print working directory.
@@ -34,54 +39,87 @@
 	/home/ubuntu#
 	
 ---> mkdir :
-* This command is used to create a new folder(directory)
+* This command is used to create a new directory.
 * Some of the different use cases:
-	--> mkdir <folder_name> :
-		* It will create folder in current working directory.
-	--> mkdir <folder_name_1> <folder_name_2> <folder_name_3> :
-		* It will create multiple folders in current directory at a time.
-	--> mkdir <folder_name_1>/<folder_name_2> :
-		* It will create folder_name_2 inside folder_name_1 in current working directory.
-		* It will fails if folder_name_1 does not exists.
-		* It will create folder at relative path.
-	--> mkdir -p <folder_name_1>/<folder_name_2>/<folder_name_3> :
+	--> mkdir <directory_name> :
+		* It will create 'directory_name' directory in current working directory.
+	--> mkdir <directory_name_1> <directory_name_2> <directory_name_3> :
+		* It will create multiple directories in current directory at a time.
+	--> mkdir <directory_name_1>/<directory_name_2> :
+		* It will create 'directory_name_2' directory inside directory_name_1 directory. The 'directory_name_1' directory should be in current working directory.
+		* It will fails if 'directory_name_1' does not exists.
+		* It will create directory at relative path.
+	--> mkdir -p <directory_name_1>/<directory_name_2>/<directory_name_3> :
 		* It will create parent directories also.
-	--> mkdir /<folder_name_1>/<folder_name_2> :
-		* It will create folder_name_2 inside folder_name_1 under root(/), no matter which directory you are. 
-		* Usually it fails due to permission denied, then use 'sudo mkdir -p /<folder_name_1>/<folder_name_2>'
-		* It will create folder at absolute path.
+	--> mkdir /<directory_name_1>/<directory_name_2> :
+		* It will create 'directory_name_2' directory inside 'directory_name_1' directory under root(/), no matter in which directory we are. 
+		* Usually it fails due to permission denied, then use 'sudo mkdir -p /<directory_name_1>/<directory_name_2>'
+		* It will create directory at absolute path.
 		
 ---> rmdir :
 * This command is used to remove empty directory.
 * Some of the different use cases:
-	--> rmdir <folder_name_1> :
-		* It will remove folder_name_1, if it is empty otherwise it shows message 'Directory not empty'
-	--> rmdir <folder_name_1>/<folder_name_2> :
-		* It will only remove folder_name_2 only if it is empty, it will not remove folder_name_2.
-	--> rmdir -p <folder_name_1>/<folder_name_2> :
-		* It will remove folder_name_2 and after folder_name_1 also.
-	
+	--> rmdir <directory_name_1> :
+		* It will remove 'directory_name_1' directory, if it is empty otherwise it shows message 'Directory not empty'
+	--> rmdir <directory_name_1>/<directory_name_2> :
+		* It will only remove 'directory_name_2' directory only if it is empty, it will not remove 'directory_name_1' directory.
+	--> rmdir -p <directory_name_1>/<directory_name_2> :
+		* It will remove 'directory_name_2' directory and after 'directory_name_1' directory also.
+	--> rmdir -p /<directory_name_1>/<directory_name_2> :
+		* It will remove 'directory_name_2' directory and after 'directory_name_1' directory, no matter in which directory we are.
+		
 ---> rm -r :
 * This command is used to remove directory, and it's all files and all subdirectories also.
 * It is very dangerous if we used wrongly.
 * Here 'r' indicate recursively.
 * Some of the different use case:
-	--> rm -r <folder_or_file_name_1> :
-		* It will remove folder_or_file_name_1, and it's all files and subdirectories inside folder_or_file_name_1.
-	--> rm -rf <folder_or_file_name_1> :
-		* It will remove folder_or_file_name_1, and it's all files and subdirectories inside folder_or_file_name_1 forcebly.
+	--> rm -r <directory_or_file_name> :
+		* It will remove 'directory_or_file_name' directory or file, and it's all files and subdirectories inside 'directory_or_file_name' directory.
+	--> rm -rf <directory_or_file_name> :
+		* It will remove 'directory_or_file_name' directory or file, and it's all files and subdirectories inside 'directory_or_file_name' directory forcebly.
 		* Here 'f' indicate focefully.
-	--> rm -r <folder_or_file_name_1> <folder_or_file_name_1> :
-		* It will remove folder_or_file_name_1, folder_or_file_name_1, and it's all files and subdirectories inside folder_or_file_name_1, folder_or_file_name_1.
-	--> rm -r <folder_name_1>/<folder_or_file_name_1> :
-		* It will remove folder_or_file_name_1, and it's all files and subdirectories inside folder_or_file_name_1.
-		* It won't remove folder_or_file_name_1, and it's all files and subdirectories.
-		
+	--> rm -r <directory_or_file_name_1> <directory_or_file_name_2> :
+		* It will remove 'directory_or_file_name_1' directory or file, directory_or_file_name_2 directory or file, and it's all files and subdirectories inside 'directory_or_file_name_1' directory, 'directory_or_file_name_2' directory.
+	--> rm -r <directory_name>/<directory_or_file_name_1> :
+		* It will remove 'directory_or_file_name_1' directory or file, and it's all files and subdirectories inside 'directory_name' directory.
+		* It won't remove 'directory_name' directory, and it's all files and subdirectories.
+	--> rm <file_name> :
+		* It will remove 'file_name' file only, by this command we can't remove directory.
+		* If we try to remove directory, it will 'Is a Directory' message.
+	--> rm -r /<directory_name>/<directory_or_file_name> :
+		* It will remove 'directory_or_file_name' directory or file, and it's all files and subdirectories inside 'directory_or_file_name' directory.
+		* No matter in which directory we are.
+		* It won't remove 'directory_name' directory, and it's all files and subdirectories.
+	--> rm -r /<directory_name> :
+		* It will remove 'directory_name', and it's all files and subdirectories inside 'directory_name', no matter in which directory we are.
+	
 ---> touch :
 * This command is used to create a file.
 * Some of the different use case:
 	--> touch <file_name> :
 		* It will create a file with the name of 'file_name'.
+	--> touch <file_name_1> <file_name_2> :
+		* It will create 'file_name_1', 'file_name_2' files in current working directory.
+	--> touch <directory_name>/<file_name> :
+		* It will create 'file_name' file in 'directory_name' directory.
+		* It fails to create 'file_name' file if 'directory_name' directory not exists in current working directory.
+	--> touch /<directory_name>/<file_name> :
+		* It will create 'file_name' file in directory_name directory, no matter in which directory we are.
+		
+---> mv :
+* Ihis command is used to move files or directories from source directory to destination directory.
+* Some of the different use case:
+	--> mv <directory_or_file_name> <destination_directory_name> :
+		* It will move 'directory_or_file_name' directory or file into 'destination_directory_name' destination directory.
+		* The 'destination_directory_name' directory should present in current working directory.
+		* If 'destination_directory_name' directory is not exist in current working directory, then it will give error message as 'No such file or directory'.
+	--> mv <directory_or_file_name_1> <directory_or_file_name_2> <directory_or_file_name_3> <destination_directory_name> :
+		* It will move multiple files or directories 'directory_or_file_name_1', 'directory_or_file_name_2', 'directory_or_file_name_3' into 'destination_directory_name' destination directory.
+	--> mv <directory_or_file_name> <directory_name_1>/<directory_name_2> :
+		* It will move 'directory_or_file_name' directory or file into 'directory_name_2' directory inside 'directory_name_1' directory.
+		* The 'directory_name_1' directory should be in current working directory.
+	--> mv <file_name_1> <directory_name>/<file_name_2> :
+		* It will move 'file_name_1' file into 'directory_name' directory, and 'file_name_1' file name is change into 'file_name_2' file.
 	
 	
 		
