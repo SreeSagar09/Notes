@@ -5,7 +5,6 @@
 ---> subo -i :
 * It is also work same as 'sudo su -'
 
-
 ---> ls :
 * To display files and directories inside a folder.
 * Some of the different use cases:
@@ -72,7 +71,7 @@
 * This command is used to remove directory, and it's all files and all subdirectories also.
 * It is very dangerous if we used wrongly.
 * Here 'r' indicate recursively.
-* Some of the different use case:
+* Some of the different use cases:
 	--> rm -r <directory_or_file_name> :
 		* It will remove 'directory_or_file_name' directory or file, and it's all files and subdirectories inside 'directory_or_file_name' directory.
 	--> rm -rf <directory_or_file_name> :
@@ -95,7 +94,7 @@
 	
 ---> touch :
 * This command is used to create a file.
-* Some of the different use case:
+* Some of the different use cases:
 	--> touch <file_name> :
 		* It will create a file with the name of 'file_name'.
 	--> touch <file_name_1> <file_name_2> :
@@ -108,7 +107,7 @@
 		
 ---> mv :
 * Ihis command is used to move files or directories from source directory to destination directory.
-* Some of the different use case:
+* Some of the different use cases:
 	--> mv <directory_or_file_name> <destination_directory_name> :
 		* It will move 'directory_or_file_name' directory or file into 'destination_directory_name' destination directory.
 		* The 'destination_directory_name' directory should present in current working directory.
@@ -127,6 +126,36 @@
 		* It will move 'directory_or_file_name' directory or file inside 'directory_name' directory into 'destination_directory_name_2' directory inside 'destination_directory_name_1' directory.
 		* * No matter in which directory we are.
 		
-	
-	
-	
+---> echo :
+* This command is used display string or value in terminal(Standard output).
+* Some of the different use cases:
+	--> echo '<string_or_value' :
+		* This command will display 'string_or_value' content in terminal.
+	--> echo ''<string_or_value> $(date)'' or echo "<string_or_value> $(date)" :
+		* This command will display 'string_or_value' content with current date.
+	--> echo "<string_or_value>" > <file_name> :
+		* This command will write 'string_or_value' content in 'file_name' file. if file exist in current directory it uses that file only, otherwise it will create a new file with the name of 'file_name' in current directory.
+		* If file is not existed, it will create and write the content.
+		* If file is existed, it will use that and overwrites old content with the new content.
+	--> echo '<string_or_value>' > <directory_name>/<file_name> :
+		* This command will write 'string_or_value' content in 'file_name' file in 'directory_name' directory, 'directory_name' directory must and should be in the current working directory.
+	--> echo '<string_or_value>' > /<directory_name>/<file_name> :
+		* This command will write 'string_or_value' content in 'file_name' file in 'directory_name' directory, no matter in which directory we are.
+		* If file is existed it will use that file, otherwise it creates a new file in 'directory_name' directory.
+	--> echo '<string_or_value' >> <file_name> :
+		* This command will append 'string_or_value' content to the 'file_name' file content. if file exist in current directory it uses that file only, otherwise it will create a new file with the name of 'file_name' in current directory.
+	--> echo '<string_or_value>' >> <directory_name>/<file_name> :	
+		* This command will append 'string_or_value' content to the 'file_name' file content in 'directory_name' directory, 'directory_name' directory must and should be in the current working directory.
+	--> echo '<string_or_value>' >> /<directory_name>/<file_name> :
+		* This command will append 'string_or_value' content to the 'file_name' file content in 'directory_name' directory, no matter in which directory we are.
+		* If file is existed it will use that file, otherwise it creates a new file in 'directory_name' directory.
+		
+---> cp :
+* This command is used to copy directory or file from the source directory, and paste into the destination directory.
+* Some of the differentuse cases:
+	--> cp <source_file_name> <destination_file_name> :
+		* This command is used to copy 'source_file_name' file from the current directory, and paste into the 'destination_file_name' file in the current directory.
+		* If 'destination_file_name' file is existed in the current directory, then 'source_file_name' file content override the 'destination_file_name' file content.
+		* If 'destination_file_name' file is not existed in the current directory, then it will create a new file with the name of 'destination_file_name' in current working directory and paste the content into the newly created file.
+	--> cp <source_directory_name> <destination_directory_name>
+		* This is command is used to copy 'source_directory_name' directory from the current working directory, and paste into the 'destination_directory_name' directory in the current directory.
