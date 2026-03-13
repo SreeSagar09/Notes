@@ -10,23 +10,32 @@
 * Some of the different use cases:
 	--> ls -l :
 		* It indicate long list, it will display file permissions, number of links, owner, group, file size, last modified date and file name.
+	
 	--> ls -a :
 		* To display hidden files and directories also.	
+	
 	--> ls -h :
 		* To display files and directories in human readable size.
+	
 	--> ls -la or ls -al :
 		* To display all file and directories, including hidden file with details.
+	
 	--> ls -R :
 		* To display list of files and directories inside subdirectories also.
+	
 	--> ls -F :
 		* To identify file type, eighter directory(/) or executable(/) file or link(*).
 			Example of usage is" ls -F /
+	
 	--> ls -t :
 		* To display list of files and directories in time sorting and recently modified file or directories are first.
+	
 	--> ls -r :
 		* To display list of file and directories in reverse order.
+	
 	--> ls <directory_name>/<directory_or_file_name> :
 		* To display list of files and directories in current working directory.
+	
 	--> ls /<directory_name>/<directory_or_file_name> :
 		* To display list of files and directories from root directory, No matter in which directory we are.
 
@@ -42,14 +51,18 @@
 * Some of the different use cases:
 	--> mkdir <directory_name> :
 		* It will create 'directory_name' directory in current working directory.
+	
 	--> mkdir <directory_name_1> <directory_name_2> <directory_name_3> :
 		* It will create multiple directories in current directory at a time.
+	
 	--> mkdir <directory_name_1>/<directory_name_2> :
 		* It will create 'directory_name_2' directory inside directory_name_1 directory. The 'directory_name_1' directory should be in current working directory.
 		* It will fails if 'directory_name_1' does not exists.
 		* It will create directory at relative path.
+	
 	--> mkdir -p <directory_name_1>/<directory_name_2>/<directory_name_3> :
 		* It will create parent directories also.
+	
 	--> mkdir /<directory_name_1>/<directory_name_2> :
 		* It will create 'directory_name_2' directory inside 'directory_name_1' directory under root(/), no matter in which directory we are. 
 		* Usually it fails due to permission denied, then use 'sudo mkdir -p /<directory_name_1>/<directory_name_2>'
@@ -60,10 +73,13 @@
 * Some of the different use cases:
 	--> rmdir <directory_name_1> :
 		* It will remove 'directory_name_1' directory, if it is empty otherwise it shows message 'Directory not empty'
+	
 	--> rmdir <directory_name_1>/<directory_name_2> :
 		* It will only remove 'directory_name_2' directory only if it is empty, it will not remove 'directory_name_1' directory.
+	
 	--> rmdir -p <directory_name_1>/<directory_name_2> :
 		* It will remove 'directory_name_2' directory and after 'directory_name_1' directory also.
+	
 	--> rmdir -p /<directory_name_1>/<directory_name_2> :
 		* It will remove 'directory_name_2' directory and after 'directory_name_1' directory, no matter in which directory we are.
 		
@@ -74,54 +90,104 @@
 * Some of the different use cases:
 	--> rm -r <directory_or_file_name> :
 		* It will remove 'directory_or_file_name' directory or file, and it's all files and subdirectories inside 'directory_or_file_name' directory.
+	
 	--> rm -rf <directory_or_file_name> :
 		* It will remove 'directory_or_file_name' directory or file, and it's all files and subdirectories inside 'directory_or_file_name' directory forcebly.
 		* Here 'f' indicate focefully.
+	
 	--> rm -r <directory_or_file_name_1> <directory_or_file_name_2> :
 		* It will remove 'directory_or_file_name_1' directory or file, directory_or_file_name_2 directory or file, and it's all files and subdirectories inside 'directory_or_file_name_1' directory, 'directory_or_file_name_2' directory.
+	
 	--> rm -r <directory_name>/<directory_or_file_name_1> :
 		* It will remove 'directory_or_file_name_1' directory or file, and it's all files and subdirectories inside 'directory_name' directory.
 		* It won't remove 'directory_name' directory, and it's all files and subdirectories.
+	
 	--> rm <file_name> :
 		* It will remove 'file_name' file only, by this command we can't remove directory.
 		* If we try to remove directory, it will 'Is a Directory' message.
+	
 	--> rm -r /<directory_name>/<directory_or_file_name> :
 		* It will remove 'directory_or_file_name' directory or file, and it's all files and subdirectories inside 'directory_or_file_name' directory.
 		* No matter in which directory we are.
 		* It won't remove 'directory_name' directory, and it's all files and subdirectories.
+	
 	--> rm -r /<directory_name> :
 		* It will remove 'directory_name', and it's all files and subdirectories inside 'directory_name', no matter in which directory we are.
+	
+	--> rm * :
+		* It will all files from current working.
+		* If current working directory has any subdirectories it won't remove, it will error message 'cannot remove '<directory_name>': Is a directory'
+		* It will remove all files, it won't remove directories.
+		* It is very dangerous when you are inside (/) directory. 
+	
+	--> rm /* :
+		* It will all files from (/) directory. No matter in which directory you are.
+		* It is very dangerous, it remove all file in root directory. 
+	
+	--> rm -r <directory_name>/* :
+		* It will remove all files and subdirectories inside the 'directory_name' directroy, in current working directory.
+	
+	--> rm -r /<directory_name>/* :
+		* It will remove all files and subdirectories inside the 'directory_name' directory, no matter in which directory yor are.
+	
+	--> rm -r /* :
+		* It will remove all files and subdirectories inside (/) directory.
+		* It is very dangerous, it will remove all files and subdirectories.
 	
 ---> touch :
 * This command is used to create a file.
 * Some of the different use cases:
 	--> touch <file_name> :
 		* It will create a file with the name of 'file_name'.
+	
 	--> touch <file_name_1> <file_name_2> :
 		* It will create 'file_name_1', 'file_name_2' files in current working directory.
+	
 	--> touch <directory_name>/<file_name> :
 		* It will create 'file_name' file in 'directory_name' directory.
 		* It fails to create 'file_name' file if 'directory_name' directory not exists in current working directory.
+	
 	--> touch /<directory_name>/<file_name> :
 		* It will create 'file_name' file in directory_name directory, no matter in which directory we are.
 		
 ---> mv :
-* Ihis command is used to move files or directories from source directory to destination directory.
+* Ihis command is used to move or rename files or directories.
+* If the destination file is existed, then it will overrides the destination file content with source file content.
+* If the destination file is not existed, then it will rename source file name with destrination file name.
+* If the destination directory is existed, then it will move source directory including it's files and subdirectories into destination directory.
+* If the destination directory is not existed, then it will rename source directory name by destination directory.
 * Some of the different use cases:
-	--> mv <directory_or_file_name> <destination_directory_name> :
-		* It will move 'directory_or_file_name' directory or file into 'destination_directory_name' destination directory.
-		* The 'destination_directory_name' directory should present in current working directory.
-		* If 'destination_directory_name' directory is not exist in current working directory, then it will give error message as 'No such file or directory'.
-	--> mv <directory_or_file_name_1> <directory_or_file_name_2> <directory_or_file_name_3> <destination_directory_name> :
-		* It will move multiple files or directories 'directory_or_file_name_1', 'directory_or_file_name_2', 'directory_or_file_name_3' into 'destination_directory_name' destination directory.
+	--> mv <source_file_name> <destination_file_name> :
+		* It will override 'source_file_name' file content with 'destination_file_name' file content in current working directory or rename 'source_file_name' file name with 'destination_file_name' file name in current working directory.
+		* If 'destination_file_name' file is existed in current working directory, then it will override 'destination_file_name' file content with 'source_file_name' file content.
+		* If 'destination_file_name' file is not exited in current working directory, then it will rename 'source_file_name' file name with 'destination_file_name' file name.
+	
+	--> mv <source_directory_name> <destination_directory_name> :
+		* It will move 'source_directory_name' directory into 'destination_directory_name' directory in current working directory or rename 'source_directory_name' directory name with 'destination_directory_name' directory name in current working directory.
+		* If 'destination_directory_name' directory is existed in current working directroy, then it will move 'source_directory_name' directory including it's files and subdirectories into 'destination_directory_name'.
+		* If 'destination_directory_name' directory is not existed in current working directory, then it will rename 'source_directory_name' directory name with 'destination_directory_name' directory name.
+	
+	--> mv <file_name_1> <file_name_2> <file_name_3> <destination_directory_name> :
+		* It will move multi[le files into one destination directory in current working directory.
+		* It will move 'file_name_1', 'file_name_2' and 'file_name_3' files into 'destination_directory_name' directory in current working directory.
+		* If 'destination_directory_name' directory is not existed in current working directory, then it will give error and the error message is 'mv: target 'destination_directory_name': No such file or directory'
+	
+	--> mv <directory_name_1> <directory_name_2> <directory_name_3> <destination_directory_name> :
+		* It will move multiple directories into one destination directory in current working directory.
+		* It will move 'directory_name_1', 'directory_name_2' and 'directory_name_3' directories into 'destination_directory_name' directory in current working directory.
+		* If 'destination_directory_name' directory is not existed in current working directory, then it will give error and the error is 'mv: target 'destination_directory_name': No such file or directory'
+		
 	--> mv <directory_or_file_name> <destination_directory_name_1>/<destination_directory_name_2> :
 		* It will move 'directory_or_file_name' directory or file into 'destination_directory_name_2' directory inside 'destination_directory_name_1' directory.
 		* The 'directory_name_1' directory should be in current working directory.
+	
 	--> mv <file_name_1> <directory_name>/<file_name_2> :
 		* It will move 'file_name_1' file into 'directory_name' directory, and 'file_name_1' file name is change into 'file_name_2' file.
+	
 	--> mv <directory_or_file_name_1> /<destination_directory_name_1>/<destination_directory_name_2> :
 		* It will move 'directory_or_file_name_1' directory or file into 'destination_directory_name_2' directory inside 'destination_directory_name_1' directory.
 		* No matter in which directory we are.
+	
 	--> mv /<directory_name>/<directory_or_file_name> /<destination_directory_name_1>/<destination_directory_name_2> :
 		* It will move 'directory_or_file_name' directory or file inside 'directory_name' directory into 'destination_directory_name_2' directory inside 'destination_directory_name_1' directory.
 		* * No matter in which directory we are.
@@ -131,21 +197,28 @@
 * Some of the different use cases:
 	--> echo '<string_or_value' :
 		* This command will display 'string_or_value' content in terminal.
+	
 	--> echo ''<string_or_value> $(date)'' or echo "<string_or_value> $(date)" :
 		* This command will display 'string_or_value' content with current date.
+	
 	--> echo "<string_or_value>" > <file_name> :
 		* This command will write 'string_or_value' content in 'file_name' file. if file exist in current directory it uses that file only, otherwise it will create a new file with the name of 'file_name' in current directory.
 		* If file is not existed, it will create and write the content.
 		* If file is existed, it will use that and overwrites old content with the new content.
+	
 	--> echo '<string_or_value>' > <directory_name>/<file_name> :
 		* This command will write 'string_or_value' content in 'file_name' file in 'directory_name' directory, 'directory_name' directory must and should be in the current working directory.
+	
 	--> echo '<string_or_value>' > /<directory_name>/<file_name> :
 		* This command will write 'string_or_value' content in 'file_name' file in 'directory_name' directory, no matter in which directory we are.
 		* If file is existed it will use that file, otherwise it creates a new file in 'directory_name' directory.
+	
 	--> echo '<string_or_value' >> <file_name> :
 		* This command will append 'string_or_value' content to the 'file_name' file content. if file exist in current directory it uses that file only, otherwise it will create a new file with the name of 'file_name' in current directory.
+	
 	--> echo '<string_or_value>' >> <directory_name>/<file_name> :	
 		* This command will append 'string_or_value' content to the 'file_name' file content in 'directory_name' directory, 'directory_name' directory must and should be in the current working directory.
+	
 	--> echo '<string_or_value>' >> /<directory_name>/<file_name> :
 		* This command will append 'string_or_value' content to the 'file_name' file content in 'directory_name' directory, no matter in which directory we are.
 		* If file is existed it will use that file, otherwise it creates a new file in 'directory_name' directory.
@@ -154,8 +227,14 @@
 * This command is used to copy directory or file from the source directory, and paste into the destination directory.
 * Some of the differentuse cases:
 	--> cp <source_file_name> <destination_file_name> :
-		* This command is used to copy 'source_file_name' file from the current directory, and paste into the 'destination_file_name' file in the current directory.
+		* This command is used to copy 'source_file_name' file from the current working directory, and paste into the 'destination_file_name' file in the current working directory.
 		* If 'destination_file_name' file is existed in the current directory, then 'source_file_name' file content override the 'destination_file_name' file content.
 		* If 'destination_file_name' file is not existed in the current directory, then it will create a new file with the name of 'destination_file_name' in current working directory and paste the content into the newly created file.
-	--> cp <source_directory_name> <destination_directory_name>
+	
+	--> cp <source_file_name_1> <source_file_name_2> <source_file_name_3> <destination_directory_name> :
+		* This command is used to copy 'source_file_name_1', 'source_file_name_2', 'source_file_name_3' from the current working directory, and paste into the 'destination_directory_name' directory in the current working directory.
+	
+	--> cp -r <source_directory_name> <destination_directory_name>
 		* This is command is used to copy 'source_directory_name' directory from the current working directory, and paste into the 'destination_directory_name' directory in the current directory.
+		* If 'destination_directory_name' directory is not exist in current working directory, then it will create new directory with name of 'destination_directory_name'.
+		* If 'destination_directory_name' directory is exist in current working directory, then it won't create new directory just paste into the 'destination_directory_name' directroy.
