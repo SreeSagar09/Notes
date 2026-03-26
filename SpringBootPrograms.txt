@@ -1,5 +1,6 @@
 SpringBootCoreApplication1 ---> A Program to show use of ConfigurableApplicationContext interface:
 SpringBootCoreApplication2 ---> A Program to change the default banner:
+SpringBootCoreApplication3 ---> A Program to show use of @ConfigurationProperties annotation:
 
 
 SpringBootRunnerApplication1 ---> A Program to implement custom runner by using CommandLineRunner interface:

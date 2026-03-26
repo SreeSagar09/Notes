@@ -1,0 +1,26 @@
+---> How @EnableAutoConfiguration internally works?
+	* It will tells to the Spring Boot application to automatically configure the beans based on dependencies and configuration.
+	* @EnableAutoConfiguration annotation is meta annotated with @Import(AutoConfigurationImportSelector.class), this class is responsible for discovering and loading all the configuration classes.
+	* This AutoConfigurationImportSelector class is searches for configuration classes defined in specific files with in the dependencies, after Spring Boot 3.x it will search in 'META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports.' localtion and Spring Boot 2.7 or before it will search in 'META-INF/spring.factories.'
+	* All discovered classes are not auto configured, Each auto-configuration class uses "Conditional" annotations to decide if it should configure.
+	* @ConditionalOnClass annotation applies the configuration only if a specific library is on the classpath.
+	* @ConditionalOnMissingBean annotation only creates a bean if the developer has not already defined one, allowing for easy overrides.
+	* @ConditionalOnProperty annotation creates or activates bean based on specific values in application.properties or application.yml.
+	* Once configurations filtered, Spring Boot determines the order of these configurations using @AutoConfigureAfter, @AutoConfigureBefore, or @AutoConfigureOrder to ensure dependencies like a DataSource are ready before JPA configurations.
+
+---> What will happens when we remove @SpringBootApplication annotation from main method?
+	* This application will still compile, but it will not start correctly as a Spring Boot application.
+	* By removing @SpringBootApplication annotation, it will stops the auto configuration, component scanning and configuration.
+	* At runtime only spring boot main method will execute.
+
+---> What will happens when SpringApplication class run method is executed?
+	* The 'run' method is the main entry point, It bootstraps and launches a Spring Boot application. It creates the Spring ApplicationContext, triggers auto-configuration, scans for beans (@Component, @Service, etc.), and starts the embedded server, some of the key actions are:
+	* ApplicationContext Creation - It will intelligently determines the type of application (Servlet-based web, Reactive, or non-web) and creates the appropriate ApplicationContext.
+	* Auto-configuration - It will enables Spring Boot's auto-configuration mechanism, analyzing the classpath to configure beans automatically,
+	* Component Scanning - It will scans for components in the package containing main class.
+	* Embedded Server Startup - If it's a web application, it will starts the embedded web server.
+	* Load Application Properties - It will allows you to set configuration properties (like database connections or port numbers) in files like application.properties or application.yml.
+	* Banner Printing - It will prints the default or custom Spring Boot banner to the console.
+
+---> What is use of @Configuration annotation?
+	* 
