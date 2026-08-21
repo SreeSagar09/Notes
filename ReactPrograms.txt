@@ -1,0 +1,1 @@
+react-core-app1 --> A program to show how to create simple Class and Functional component:
