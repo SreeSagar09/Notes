@@ -1,3 +1,7 @@
 react-core-app1 --> A program to show how to create simple Class and Functional component:
 react-core-app2 --> A program to show how to work with props in Class and Functional component:
 react-core-app3 --> A program to show how to work with state in Class and Functional component:
+react-core-app4 --> A program to show how to bind events in Class and Functional component:
+
+
+react-redux-app1 --> A program to show how to create simple react redux application:
