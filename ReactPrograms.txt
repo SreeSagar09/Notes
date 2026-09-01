@@ -5,4 +5,6 @@ react-core-app4 --> A program to show how to bind events in Class and Functional
 
 
 react-redux-app1 --> A program to show how to create simple react redux application:
-react-redux-app1 --> A program to show how to use useSelector, useDispatch hooks in react redux application:
+react-redux-app2 --> A program to show how to use useSelector, useDispatch hooks in react redux application:
+react-redux-app3 --> A program to show how to work with combineReducers in react redux application:
+react-redux-app4 --> A program to show how to work with redux-logger middleware in react redux application:
